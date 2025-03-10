@@ -7,7 +7,7 @@ export const logger = Desktop.logger.createLogger('headless-widget');
 let callStartTime = 0 , callEndTime = 0 , callDuration = 0;
 let agentName, agentState = '';
 let isInitialized = false;
-let callType = 'Outbound';
+let callType = 'Inbound';
 
 customElements.define(
   'headless-crm-widget',
